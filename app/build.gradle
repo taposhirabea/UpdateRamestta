@@ -61,8 +61,8 @@ detekt {
 android_lint_reporter {
     lintFilePath = "./build/reports/lint-results-analyticsDebug.xml"
     detektFilePath = "./build/reports/detekt/detekt.xml"
-    githubOwner = "AlphaWallet"
-    githubRepositoryName = "alpha-wallet-android"
+    githubOwner = "RamesttaWallet"
+    githubRepositoryName = "ramestta-wallet"
     showLog = true // optional - default to false, show extra information, will slow things down
 }
 
@@ -88,7 +88,7 @@ android {
         versionCode 203
         versionName "3.59"
 
-        applicationId "io.stormbird.wallet"
+        applicationId "io.ramestta.wallet"
         minSdkVersion 23
         targetSdkVersion 32
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'

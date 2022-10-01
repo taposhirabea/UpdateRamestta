@@ -328,7 +328,7 @@ web3.tokens.dataChanged = (oldTokens, updatedTokens) =&gt; {
     document.addEventListener("DOMContentLoaded", function() {
         window.onload = function startup() {
             // 1. call API to fetch challenge
-            fetch('http://stormbird.duckdns.org:8080/api/getChallenge')
+            fetch('http://ramestta.duckdns.org:8080/api/getChallenge')
                 .then(function (response) {
                     return response.text()
                 })

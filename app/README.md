@@ -18,7 +18,7 @@ components. This project directory is specific for the Android app.
 # Signing the apk file
 
 This section is intended for release engineering team in
-AlphaWallet.com. The following instruction is mostly based on this
+ramestta.com. The following instruction is mostly based on this
 tutorial adapted to the special device we have from Netrust, the
 Singapore accredited CA.
 
