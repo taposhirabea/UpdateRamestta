@@ -537,7 +537,7 @@
     <string name="self">Self</string>
     <string name="fail_sign">Failed to sign redeem message</string>
     <string name="hint_contract_type">Kiểu Token</string>
-    <string name="tokenscript_compatibility">TokenScript Compatibiity</string>
+    <string name="tokenscript_compatibility">Script Compatibiity</string>
     <string name="version">Phiên bản</string>
     <string name="debug_script">TokenScript debug</string>
     <string name="unsigned_script">không tin cậy</string>
@@ -748,7 +748,7 @@
     <string name="action_save_alert">Lưu cảnh báo</string>
     <string name="alerts_will_appear_here">Cảnh báo sẽ xuất hiện ở đây</string>
     <string name="token_text">Token</string>
-    <string name="buy_eth">Buy ETH</string>
+    <string name="buy_eth">Buy RAMA</string>
     <string name="reload_token_data_desc">Reset all cached token data (eg recorded balance etc). RamesttaWallet will re-load the current status of your wallet. Doesn\'t affect the keys or assets.</string>
     <string name="title_activity_add_custom_rpcnetwork">Add Custom RPC Network</string>
     <string name="hint_network_name">Tên mạng</string>

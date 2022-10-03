@@ -40,7 +40,7 @@ public abstract class C {
     public static final String AVALANCHE_NETWORK = "Avalanche";
     public static final String FUJI_TEST_NETWORK = "Avalanche FUJI (Test)";
     public static final String MATIC_NETWORK = "Ramestta";
-    public static final String POLYGON_NETWORK = "Polygon";
+    public static final String POLYGON_NETWORK = "Ramestta";
     public static final String POLYGON_TEST_NETWORK = "Mumbai (Test)";
     public static final String OPTIMISTIC_NETWORK = "Optimistic";
     public static final String OPTIMISTIC_TEST_NETWORK = "Optimistic (Test)";
@@ -100,7 +100,7 @@ public abstract class C {
     public static final String DAI_TOKEN = "0x6b175474e89094c44da98b954eedeac495271d0f";
     public static final String SAI_TOKEN = "0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359";
 
-    public static final String ALPHAWALLET_WEB = "https://www.alphawallet.com";
+    public static final String ALPHAWALLET_WEB = "https://www.ramestta.com";
 
     public static final String XDAI_BRIDGE_DAPP = "https://bridge.xdaichain.com/";
 

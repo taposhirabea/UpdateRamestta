@@ -234,7 +234,7 @@ public class QRExtractorTest {
         System.out.println(result.getAddress());
         assertTrue(result.type == EIP681Type.URL);
 
-        result = parser.parse("http://www.ramestta.com");
+        result = parser.parse("https://www.ramestta.com");
         System.out.println(result.getAddress());
         assertTrue(result.type == EIP681Type.URL);
     }

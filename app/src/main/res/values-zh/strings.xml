@@ -525,7 +525,7 @@
     <string name="self">自己</string>
     <string name="fail_sign">无法签署兑换消息</string>
     <string name="hint_contract_type">通证类型</string>
-    <string name="tokenscript_compatibility">TokenScript 标准兼容性</string>
+    <string name="tokenscript_compatibility">Script 标准兼容性</string>
     <string name="version">版本</string>
     <string name="debug_script">TokenScript 调试</string>
     <string name="unsigned_script">不信任</string>
@@ -733,7 +733,7 @@
     <string name="action_save_alert">保存通知</string>
     <string name="alerts_will_appear_here">通知将会出现在这里</string>
     <string name="token_text">Token</string>
-    <string name="buy_eth">Buy ETH</string>
+    <string name="buy_eth">Buy RAMA</string>
     <string name="reload_token_data_desc">Reset all cached token data (eg recorded balance etc). RamesttaWallet will re-load the current status of your wallet. Doesn\'t affect the keys or assets.</string>
     <string name="text_speedup_note">Note that speeding up this transaction does not guarantee your original transaction will be accelerated. If your attempt is successful, you will be charged the miner fee as above.</string>
     <string name="text_cancel_note">Note that this transaction does not guarantee your original transaction will be cancelled. If your attempt is successful, you will be charged the miner fee as above.</string>

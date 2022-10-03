@@ -541,7 +541,7 @@
     <string name="self">Self</string>
     <string name="fail_sign">ထုတ်ယူရန်မက်ဆေ့ကိုလက်မှတ်ထိုးခြင်းမအောင်မြင်ပါ။</string>
     <string name="hint_contract_type">တိုကင်အမျိုးအစား</string>
-    <string name="tokenscript_compatibility">CHANGE: TokenScript Compatibiity</string>
+    <string name="tokenscript_compatibility">CHANGE: Script Compatibiity</string>
     <string name="debug_script">TokenScript debug</string>
     <string name="unsigned_script">မယုံကြည်ရပါ</string>
     <string name="show_qr_code_to_redemption_booth">Redemption Boothတွင်QRကုတ်ကိုပြပါ:</string>

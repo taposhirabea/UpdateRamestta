@@ -535,7 +535,7 @@
     <string name="self">Diri sendiri</string>
     <string name="fail_sign">Gagal menandatangani pertukaran pesan</string>
     <string name="hint_contract_type">Tipe Token</string>
-    <string name="tokenscript_compatibility">Kecocokan TokenScript</string>
+    <string name="tokenscript_compatibility">Kecocokan Script</string>
     <string name="version">Versi</string>
     <string name="debug_script">TokenScript debug</string>
     <string name="unsigned_script">tidak terpercaya</string>

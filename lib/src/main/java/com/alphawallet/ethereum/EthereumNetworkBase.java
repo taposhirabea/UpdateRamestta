@@ -130,7 +130,7 @@ public abstract class EthereumNetworkBase { // implements EthereumNetworkReposit
             put(FANTOM_TEST_ID, new NetworkInfo("Fantom (Test)", "FTM", FANTOM_TEST_RPC_URL, "https://explorer.testnet.fantom.network/tx/",
                     FANTOM_TEST_ID, false));
 
-            put(POLYGON_ID, new NetworkInfo("Ramestta", "RAMA", MATIC_RPC_URL, "https://polygonscan.com/tx/",
+            put(POLYGON_ID, new NetworkInfo("Ramestta", "RAMA", MATIC_RPC_URL, "https://ramascan.com/tx/",
                     POLYGON_ID, false));
             put(POLYGON_TEST_ID, new NetworkInfo("Mumbai (Test)", "POLY", MUMBAI_TEST_RPC_URL, "https://mumbai.polygonscan.com/tx/",
                     POLYGON_TEST_ID, false));

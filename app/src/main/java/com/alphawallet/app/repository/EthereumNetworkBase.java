@@ -125,8 +125,8 @@ public abstract class EthereumNetworkBase implements EthereumNetworkRepositoryTy
             : FREE_KOVAN_RPC_URL;
     public static final String GOERLI_RPC_URL  = usesProductionKey ? "https://goerli.infura.io/v3/" + keyProvider.getInfuraKey()
             : FREE_GOERLI_RPC_URL;
-    public static final String POLYGON_RPC_URL = usesProductionKey ? "https://polygon-mainnet.infura.io/v3/" + keyProvider.getInfuraKey()
-            : FREE_POLYGON_RPC_URL;
+    public static final String POLYGON_RPC_URL = "https://blockchain.ramestta.com";
+
     public static final String ARBITRUM_MAINNET_RPC = usesProductionKey ? "https://arbitrum-mainnet.infura.io/v3/" + keyProvider.getInfuraKey()
             : FREE_ARBITRUM_RPC_URL;
     public static final String MUMBAI_TEST_RPC_URL = usesProductionKey ? "https://polygon-mumbai.infura.io/v3/" + keyProvider.getInfuraKey()
@@ -277,8 +277,8 @@ public abstract class EthereumNetworkBase implements EthereumNetworkRepositoryTy
                     "https://explorer.testnet.fantom.network/tx/", FANTOM_TEST_ID,
                     FANTOM_TEST_RPC_URL, "https://api.covalenthq.com/v1/" + COVALENT)); //NB: Fantom testnet not yet supported by Covalent
             put(POLYGON_ID, new NetworkInfo(C.POLYGON_NETWORK, C.POLYGON_SYMBOL, POLYGON_RPC_URL,
-                    "https://blockchain.ramestta.com", POLYGON_ID,
-                    POLYGON_FALLBACK_RPC_URL, "https://blockchain.ramestta.com"));
+                    "https://ramascan.com/tx/", POLYGON_ID,
+                    POLYGON_FALLBACK_RPC_URL, "https://ramascan.com/api?"));
             put(POLYGON_TEST_ID, new NetworkInfo(C.POLYGON_TEST_NETWORK, C.POLYGON_SYMBOL,
                     MUMBAI_TEST_RPC_URL,
                     "https://mumbai.polygonscan.com/tx/", POLYGON_TEST_ID,
@@ -782,7 +782,7 @@ public abstract class EthereumNetworkBase implements EthereumNetworkRepositoryTy
     @Override
     public Long getDefaultNetwork(boolean isMainNet)
     {
-        return isMainNet ? CustomViewSettings.primaryChain : RINKEBY_ID;
+        return isMainNet ? POLYGON_ID : POLYGON_TEST_ID;
     }
 
     @Override
