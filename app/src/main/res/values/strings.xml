@@ -598,7 +598,7 @@
     <string name="title_advanced">Advanced</string>
     <string name="title_support">Support</string>
     <string name="title_blog">Blog</string>
-    <string name="title_faq">FAQ</string>
+    <string name="title_faq">Help</string>
     <string name="title_console">Console</string>
     <string name="title_clear_browser_cache">Clear Browser Cache</string>
     <string name="title_reload_token_data">Reload Token Data</string>
@@ -988,4 +988,12 @@
     <string name="vertical_pipe">|</string>
     <string name="eth" translatable="false">ETH</string>
     <string name="zero" translatable="false">0</string>
-</resources>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="question1">Q1. Why is this?</string>
+    <string name="answer1">A1. At FoodZest we strive to add value to your business. We understand the challenges you face on a daily basis in sourcing the best quality packaging material. FoodZest Packaging Assist is to take care of all your packaging needs.</string>
+    <string name="question2">Q2. How it works?</string>
+    <string name="answer2">A2. Best products - We only list the products which have passed our tests and are the best suitable for delivery. They will help in giving a better consumer experience, so you can get repeated orders. Best prices - We have negotiated rates with our distributors exclusive for FoodZest Restaurant. Convenience - No need to haggle for prices. No need to follow-up on delivery. We track all orders to ensure you have a hassle free experience.</string>
+    <string name="question3">Q3. Why is needed?</string>
+    <string name="answer3">A3. At FoodZest we strive to add value to your business. We understand the challenges you face on a daily basis in sourcing the best quality packaging material. FoodZest Packaging Assist is to take care of all your packaging needs.</string>
+    </resources>

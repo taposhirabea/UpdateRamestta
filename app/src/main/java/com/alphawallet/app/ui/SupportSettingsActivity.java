@@ -1,14 +1,21 @@
 package com.alphawallet.app.ui;
 
+import android.animation.LayoutTransition;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
+import android.transition.AutoTransition;
+import android.transition.TransitionManager;
+import android.view.View;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import androidx.annotation.Nullable;
+import androidx.annotation.RequiresApi;
 
-import com.alphawallet.app.BuildConfig;
+//import com.alphawallet.app.BuildConfig;
 import com.alphawallet.app.C;
 import com.alphawallet.app.R;
 import com.alphawallet.app.entity.MediaLinks;
@@ -33,10 +40,12 @@ public class SupportSettingsActivity extends BaseActivity {
     private SettingsItemView faq;
     private SettingsItemView github;
 
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_generic_settings);
+
 
         toolbar();
         setTitle(getString(R.string.title_support));
@@ -44,6 +53,8 @@ public class SupportSettingsActivity extends BaseActivity {
         initializeSettings();
 
         addSettingsToLayout();
+
+
     }
 
     private void initializeSettings() {
@@ -267,7 +278,12 @@ public class SupportSettingsActivity extends BaseActivity {
         } catch (Exception e) {
             Timber.e(e);
         }
+
+        //setContentView(R.layout.fragment_faqs);
+
     }
+
+
 
     private boolean isAppAvailable(String packageName) {
         PackageManager pm = getPackageManager();
@@ -278,4 +294,5 @@ public class SupportSettingsActivity extends BaseActivity {
             return false;
         }
     }
+
 }

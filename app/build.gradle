@@ -85,7 +85,7 @@ android {
         }
     }
     defaultConfig {
-        versionCode 170
+        versionCode 174
         versionName "3.59"
 
         applicationId "io.ramestta.wallet"
@@ -246,6 +246,7 @@ dependencies {
 
     // Ethereum client
     //implementation "org.web3j:core:4.8.8-android"
+    //implementation 'com.ms-square:expandableTextView:0.1.4'
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.fasterxml.jackson.core:jackson-core:2.13.2'
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.2.2'
